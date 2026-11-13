@@ -19,7 +19,11 @@
   "sideEffects": false,
   "type": "module",
   "exports": {
-    ".": "./dist/index.js"
+    ".": "./dist/index.js",
+    "./credentials": "./dist/credentials.js",
+    "./nodes": "./dist/nodes.js",
+    "./openai": "./dist/openai.js",
+    "./page": "./dist/page.js"
   },
   "main": "./dist/index.js",
   "files": [

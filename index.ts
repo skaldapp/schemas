@@ -44,3 +44,8 @@ writeFileSync(
   resolve("dist/index.js"),
   `import { generateSlug } from "random-word-slugs";${standaloneCode(ajv)}`,
 );
+
+writeFileSync(
+  resolve("dist/index.d.ts"),
+  'declare module "@skaldapp/schemas";',
+);
