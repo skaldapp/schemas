@@ -1,0 +1,43 @@
+{
+  "$schema": "https://www.schemastore.org/package",
+  "name": "@skaldapp/schemas",
+  "version": "0.0.0",
+  "description": "Json schemas for skaldapp",
+  "keywords": [
+    "schemas"
+  ],
+  "homepage": "https://npmjs.com/package/@skaldapp/schemas",
+  "bugs": {
+    "url": "https://github.com/skaldapp/schemas/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/skaldapp/schemas.git"
+  },
+  "license": "AGPL-3.0-or-later",
+  "author": "Jerry Bruwes <jbruwes@gmail.com>",
+  "sideEffects": false,
+  "type": "module",
+  "exports": {
+    ".": "./dist/index.js"
+  },
+  "main": "./dist/index.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.build.json && node index.ts",
+    "lint": "eslint ."
+  },
+  "prettier": "@skaldapp/configs/prettierrc",
+  "dependencies": {
+    "random-word-slugs": "^0.1.7"
+  },
+  "devDependencies": {
+    "@skaldapp/configs": "^1.7.16",
+    "@types/node": "^26.6.6",
+    "ajv": "^8.20.0",
+    "eslint": "^10.14.0",
+    "json-schema-to-ts": "^3.1.1"
+  }
+}

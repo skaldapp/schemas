@@ -1,0 +1,10 @@
+{
+  "$schema": "https://www.schemastore.org/tsconfig",
+  "compilerOptions": {
+    "noEmit": true,
+    "rootDir": ".",
+    "types": ["node"],
+    "allowImportingTsExtensions": true
+  },
+  "extends": ["@skaldapp/configs/tsconfig"]
+}

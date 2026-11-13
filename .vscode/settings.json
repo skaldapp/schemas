@@ -1,0 +1,12 @@
+{
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.codeActionsOnSave": ["source.fixAll.eslint"],
+  "eslint.validate": ["typescript", "vue", "json"],
+  "js/ts.tsdk.path": "node_modules/typescript/lib",
+  "cSpell.words": ["Bruwes", "skaldapp"],
+  "Codegeex.CommitMessage.LanguagePreference": "English",
+  "Codegeex.Comment.LanguagePreference": "English",
+  "Codegeex.Chat.LanguagePreference": "English",
+  "Codegeex.SidebarUI.LanguagePreference": "English",
+  "Codegeex.CommitMessageStyle": "ConventionalCommits"
+}
