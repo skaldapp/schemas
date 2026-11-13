@@ -38,7 +38,7 @@
     "random-word-slugs": "^0.1.7"
   },
   "devDependencies": {
-    "@skaldapp/configs": "^1.7.16",
+    "@skaldapp/configs": "^1.7.17",
     "@types/node": "^26.6.6",
     "ajv": "^8.20.0",
     "eslint": "^10.14.0",
