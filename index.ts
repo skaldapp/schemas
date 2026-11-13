@@ -38,10 +38,9 @@ const esm = true,
     schemas,
     strictSchema,
     useDefaults,
-  }),
-  outputPath = resolve("dist/index.js");
+  });
 
 writeFileSync(
-  outputPath,
+  resolve("dist/index.js"),
   `import { generateSlug } from "random-word-slugs";${standaloneCode(ajv)}`,
 );
